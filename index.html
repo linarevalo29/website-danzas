@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Libite</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Container funciona para centrar el contenido al 1200 px -->
+        <!-- Div class funciona para un contenedor que se repite -->
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#"><img src="img/logo.png" alt=""></a>
+                </div>
+                <div id="menu">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#clases">Clases</a></li>
+                        <li><a href="#coreografías">Coreografías</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="hero">
+                <h1>ACADEMÍA DE DANZAS</h1>
+                <h3>¿Qué esperas para inscribirte?</h3>
+                <button>INSCRIBIRME</button>
+            </div>
+        </div>
+    </header>
+    <!-- Final sección inicio -->
+
+    <!-- Inicio sección clases -->
+    <div id="clases">
+    <!-- Div id funciona para un contenedor que no se repite, es único -->
+        <div class="container">
+            <h2>CLASES</h2>
+            <p>En <b>LIBITE</b> tenemos clases totalmente personalizadas para ti <br> Selecciona la clase que más te guste e inscribite ya!</p>
+            <!-- Div class row funciona para un contenedor en fila que se repite -->
+            <div class="row">
+                <div class="item-clases">
+                    <img src="img/danza folclórica.png" alt="">
+                    <h3>DANZA<br>FOLCLÓRICA</h3>
+                    <p> Clases de 3 horas<br>
+                        5 a 8 personas<br>
+                        Precio por clase<br>
+                        10.000 Pesos</p>
+                </div>
+                <div class="item-clases">
+                    <img src="img/danza urbana.png" alt="">
+                    <h3>DANZA<br>URBANA</h3>
+                    <p>Clases de 5 horas<br>
+                        6 a 10 personas<br>
+                        Precio por clase<br>
+                        20.000 Pesos</p>
+                </div>
+                <div class="item-clases">
+                    <img src="img/danza en pareja.png" alt="">
+                    <h3>DANZA<br>EN PAREJA</h3>
+                    <p>Clases de 3 horas<br>
+                        3 a 6 parejas<br>
+                        Precio por clase<br>
+                        40.000 Pesos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Inicio sección coreografías -->
+    <div id="coreografías">
+         <div class="container">
+            <h2>COREOGRAFÍAS</h2>
+                <div class="row">
+                    <div class="item-coreografías">
+                        <img src="img/coreo ballet.png" alt="">
+                        <h3>COREO BALLET</h3>
+                    </div>
+                    <div class="item-coreografías">
+                        <img src="img/coreo folklor.png" alt="">
+                        <h3>COREO FOLKLOR</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item-coreografías">
+                        <img src="img/coreo hip hop.png" alt="">
+                        <h3>COREO HIP HOP</h3>
+                    </div>
+                    <div class="item-coreografías">
+                        <img src="img/coreo tropical.png" alt="">
+                        <h3>COREO TROPICAL</h3>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- Inicio sección contacto -->
+    <div id="contacto" >
+        <div class="container">
+            <h2>CONTACTO</h2>
+            <p>Comparte con nosotros tus datos de contacto y te enviaremos <br> toda la información sobre las clases, horarios y medios de pago.</p>
+            <form action="#">
+                <div class="row" >
+                    <input class="campob" type="text" placeholder="Nombres:">
+                    <input class="campob" type="number" placeholder="Teléfono:">
+                 </div>
+                 <div class="row" >
+                    <input class="campob" type="email" placeholder="Email:">
+                    <select class="campob" name="#" id="#">
+                        <option value="#">Clase:</option>
+                        <option value="#">Folclórica</option>
+                        <option value="#">Urbana</option>
+                        <option value="#">En pareja</option>
+                    </select>
+                 </div>
+                <button>ENVIAR</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Inicio pie de página -->
+    <footer>
+        <p>Copyright © 2021 - Libite</p> 
+        <p>info@libite.com | +57 314 406 7980</p>
+        <p>Calle 3 # 4 - 15 Zipaquirá, Cundinamarca</p>
+    </footer>
+    
+</body>
+
+</html>

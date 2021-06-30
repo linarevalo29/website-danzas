@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* El # se usa para id y el . para class */
+
+body{
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif; font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{ 
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+}
+.container  {
+    width: 850px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu ul li{
+    display: inline-block;
+    margin: 0 13px;
+}
+#menu ul li a{
+    color: #ffffff;
+    font-size: 22px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: .5s;
+}
+#menu ul li a:hover{
+    color: #926974;
+    border-bottom: 2px solid #926974;
+}
+#hero {
+   text-align: center;
+   padding-top: 120px; 
+}
+#hero h1 {
+    color: #3d232f;
+    font-size: 47px;
+}
+#hero h3 {
+    color: #ffffff;
+    font-size: 27px;
+}
+#hero button {
+    background: #3d232f;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top:92px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+#hero button:hover{
+    background: #926974;
+}
+#clases{
+    background-color: #efecec;
+    width: 100%;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom:40px;
+    text-align: center;
+}
+#clases h2{
+    color: #3d232f;
+    font-size: 50px;
+}
+#clases p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#clases .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#clases .row .item-clases{
+    padding: 10px;
+    position: relative;
+    transition: .4s;
+}
+#clases .row .item-clases:hover {
+    padding: 10px;
+    position: relative;
+    box-shadow: 0px 0px 9px 0px #c4c4c4;
+}
+#clases .row .item-clases img{
+    transition: .4s;
+}
+#clases .row .item-clases:hover img{
+    border-radius: 50%;
+}
+#clases .row .item-clases h3{
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    right: 0px;
+    font-size: 22px;
+    color: #efecec;
+    transition: .4s;
+}
+#clases .row .item-clases:hover h3{
+    color: #ffffff;
+}
+#coreografías{
+    width: 100%;
+    background: url(../img/bg-coreografías.png);
+    background-size: cover;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    position: relative;
+}
+#coreografías h2{
+    font-size: 50px;
+    color: #3d232f;
+    margin-bottom: 85px;
+}
+#coreografías .row{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+#coreografías .row .item-coreografías{
+    position: relative;
+    width: 350px;
+}
+#coreografías .row .item-coreografías h3{
+    font-size: 23px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    transition: .4s;
+}
+#coreografías .row .item-coreografías:hover h3{
+    color: #3d232f;
+}
+#coreografías .row .item-coreografías img{
+    transition: .4s;
+}
+#coreografías .row .item-coreografías:hover img{
+    transform: scale(1.13);
+}
+#contacto {
+    background-color: #efecec;
+    background-size: cover;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+#contacto h2 {
+    font-size: 50px;
+    color: #3d232f;
+    margin-bottom: 30px; 
+}
+#contacto p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+#contacto .row {
+    margin-top: 35px;
+}
+#contacto .row .campob {
+    width: 300px;
+    padding: 12px;
+    margin: 0 15px;
+    border-radius: 19px;
+    border: 2px solid #3d232f;
+}
+#contacto .row select {
+    width: 326px !important;
+    color: #696666;
+}
+#contacto form button {
+    padding: 10px  50px;
+    font-size: 18px;
+    margin-top: 50px;
+    background: #3d232f;
+    color: #ffffff;
+    border-radius: 5px;
+    border: transparent;
+    transition: .4s;
+}
+#contacto form button:hover {
+    background: #926974;
+}
+footer {
+    background: #3d232f;
+    color:#ffffff;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
